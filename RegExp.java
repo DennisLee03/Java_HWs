@@ -64,12 +64,6 @@ public class RegExp {
         String str2 = args[2].toLowerCase();
         int s2Count = Integer.parseInt(args[3]);
 
-        //For your testing of input correctness
-        /*System.out.println("The input file: " + args[0]);
-        System.out.println("str1 = " + str1);
-        System.out.println("str2 = " + str2);
-        System.out.println("num of repeated requests of str2 = " + s2Count);*/
-
         try {
             BufferedReader reader = new BufferedReader(new FileReader(args[0]));
             String line;
